@@ -1,19 +1,25 @@
-<div class="login-container">
-    <!-- Updated Logo tag with inline style -->
-    <img src="logo.png" alt="Company Logo" style="width: 150px; margin-bottom: 20px;" />
-    
-    <h2>Login</h2>
-    <form action="#" method="POST">
-        <label for="username">Username</label><br/>
-        <input type="text" id="username" name="username" placeholder="Enter username" required /><br/>
-        
-        <label for="password">Password</label><br/>
-        <input type="password" id="password" name="password" placeholder="Enter password" required /><br/>
-        
-        <button type="submit">Login</button>
-    </form>
-    <div class="forgot-password">
-        <a href="#">Forgot password?</a>
-    </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page with Logo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 320px;
+            text-align: cente
+
 
