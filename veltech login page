@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page with Logo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: white;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 320px;
+            text-align: center;
+        }
+        .login-container img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #a72c2c;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 6px 0 16px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #a72c2c;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #891f1f;
+        }
+        .forgot-password {
+            text-align: right;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .forgot-password a {
+            color: #a72c2c;
+            text-decoration: none;
+        }
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <!-- Logo -->
+    <img src="a06584de-4048-4511-9143-aa35314a1333.png" alt="Vel Tech Logo" />
+    
+    <h2>Login</h2>
+    <form action="#" method="POST">
+        <label for="username">Username</label><br/>
+        <input type="text" id="username" name="username" placeholder="Enter username" required /><br/>
+        
+        <label for="password">Password</label><br/>
+        <input type="password" id="password" name="password" placeholder="Enter password" required /><br/>
+        
+        <button type="submit">Login</button>
+    </form>
+    <div class="forgot-password">
+        <a href="#">Forgot password?</a>
+    </div>
+</div>
+
+</body>
+</html>
